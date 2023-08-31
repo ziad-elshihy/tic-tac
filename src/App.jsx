@@ -58,14 +58,13 @@ export default function Home() {
          <div>
             {!winningMessage
                ? <div>
-                  It&apos;s now{" "}
                   <span
                      className={
                         turn === "circle"
                            ? "text-blue-600"
                            : "text-red-600"
                      }>
-                     {turn}
+                     {turn === 'circle' ? 'O' : 'X'}
                   </span>{" "}
                   turn!
                </div>
