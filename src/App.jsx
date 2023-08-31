@@ -23,9 +23,9 @@ export default function Home() {
          const comboCross = combo.every((item) => board[item] === "cross");
 
          if (comboCircle) {
-            setWinningMessage("Circle wins!");
+            setWinningMessage("'O' wins!");
          } else if (comboCross) {
-            setWinningMessage("Cross wins!");
+            setWinningMessage("'X' wins!");
          }
       });
    }, [board, winningMessage]);
