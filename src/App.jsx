@@ -64,7 +64,7 @@ export default function Home() {
                            ? "text-blue-600"
                            : "text-red-600"
                      }>
-                     {turn === 'circle' ? 'O' : 'X'}
+                     {turn === 'circle' ? "'O'" : "'X'"}
                   </span>{" "}
                   turn!
                </div>
